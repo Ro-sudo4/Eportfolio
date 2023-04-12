@@ -1,20 +1,5 @@
 @charset "UTF-8";
 
-/* header nav a {
-  text-decoration: none;
-  background-color: plum;
-  color: antiquewhite;
-  font-size: large;
-  position: relative;
-  top: 0px;
-  left: 1070px;
-  border-style: hidden;
-  float: left;
-  padding: 0 5px;
-  display: block;
-  height: 50px;
-} */
-
 body {
   background-color: palevioletred;
 }
@@ -97,7 +82,22 @@ a {
   background-image: url("../Eportfolio/img/linkedin_logo.png");
 }
 
-/* body {
-  font-family: "Times New Roman", Times, serif;
-  color: whitesmoke;
-} */
+.contact-logo {
+  width: 50px;
+  height: 50px;
+  background-image: url("../Eportfolio/img/linkedin_logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: url(../Eportfolio/img/linkedin_logo.png);
+}
+
+.contact-logo:hover {
+  background-image: url("../Eportfolio/img/linkedin_logo.png");
+}
+
+.socials {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
