@@ -4,10 +4,9 @@
   margin: 0%;
   padding: 0%;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 680px) {
   body {
     background-color: pink;
-    width: fit-content;
   }
 
   body::after {
@@ -145,9 +144,9 @@
   }
 
   .logo-header img {
-    height: 60px;
+    height: 70px;
     align-self: center;
-    width: 60px;
+    width: 70px;
   }
 
   .header-navbar {
@@ -166,7 +165,7 @@
   }
 
   .header-navbar ul li a {
-    padding: 0 10px;
+    padding: 0 8px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 100px;
     text-decoration: none;
