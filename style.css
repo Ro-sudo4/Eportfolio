@@ -1,24 +1,54 @@
-* {
-  margin: 0px;
-  padding: 0px;
+@charset "UTF-8";
+@media only screen and (max-width: 640px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #myVideo {
+    position: relative;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  object {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    color: whitesmoke;
+  }
 }
 
-#myVideo {
-  position: relative;
-  right: 0%;
-  bottom: 0%;
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
+@media only screen and (min-width: 641px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
 
-object {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
+  #myVideo {
+    position: relative;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
 
-h1 {
-  text-align: center;
-  color: whitesmoke;
+  object {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    color: whitesmoke;
+  }
 }
