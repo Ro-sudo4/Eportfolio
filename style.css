@@ -1,10 +1,5 @@
 @charset "UTF-8";
 @media only screen and (max-width: 640px) {
-  * {
-    margin: 0px;
-    padding: 0px;
-  }
-
   #myVideo {
     position: relative;
     right: 0%;
@@ -27,11 +22,6 @@
 }
 
 @media only screen and (min-width: 641px) {
-  * {
-    margin: 0px;
-    padding: 0px;
-  }
-
   #myVideo {
     position: relative;
     right: 0%;
